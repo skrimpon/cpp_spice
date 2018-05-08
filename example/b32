@@ -1,0 +1,9 @@
+L1 1 0 15e-2
+I1 1 0 5 SIN (5 0.5 5 1 1 30) AC 5.0 45.0
+R1 1 2 10e3
+C1 2 0 100e-6
+
+.ac lin 10 0.1 1e9
+.PLOT AC V(1) V(2)
+
+.OPTIONS SPARSE

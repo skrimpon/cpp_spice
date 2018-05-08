@@ -1,0 +1,10 @@
+***
+V1 1 2 15
+R0 1 0 10e3
+R1 2 3 10e3
+R2 3 0 10e3
+
+.DC V1 0.0 15.0 5.0
+.PLOT DC V(1) V(2)
+
+.OPTIONS SPARSE
